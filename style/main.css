@@ -8,3 +8,41 @@ html {
     font-size: 62.5%;
 }
 
+body {
+    background-color: #F1f5f8;
+  
+}
+
+/* nav styling */
+
+.nav {
+    background-color: #fff;
+    height: 5rem;
+    box-shadow: 0px 5px 14px 0px #5e5e5e5e;
+    text-transform: capitalize;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ 
+   font-size: 2rem;
+}
+
+.logo {
+    color: #71bafe;
+   
+}
+
+.color-box {
+    display: flex;
+    cursor: pointer;
+   
+}
+
+.item-hex {
+    margin-left: 2rem;
+}
+
+.item:hover {
+    color : #71bafe;
+}
+
