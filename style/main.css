@@ -11,26 +11,20 @@ html {
 body {
     background-color: #F1f5f8;
     position: relative;
-    height: 100vh;
     color : #222;
-  
+    transition: background .5s;
 }
-
-
-
-/* nav styling */
 
 .nav {
     background-color: #fff;
     height: 5rem;
     box-shadow: 0px 5px 14px 0px #5e5e5e5e;
     text-transform: capitalize;
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
- 
-   font-size: 2rem;
-   letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    letter-spacing: 2px;
 }
 
 .logo {
@@ -41,7 +35,6 @@ body {
 .color-box {
     display: flex;
     cursor: pointer;
-   
 }
 
 .item-hex {
@@ -52,7 +45,9 @@ body {
     color : #71bafe;
 }
 
-/* main styling */
+.alert-box {
+    letter-spacing: 1px;
+}
 
 .main {
     display: grid;
@@ -77,6 +72,7 @@ body {
 
 .color-name {
     color : #71bafe;
+  
 }
 
 .change-btn {
@@ -96,4 +92,16 @@ body {
 .change-btn:hover {
     background-color: #222; 
     color: #fff; 
+}
+
+.alert-box {
+    
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+    position: absolute;
+}
+
+.alert {
+    font-size: 4rem;
 }
